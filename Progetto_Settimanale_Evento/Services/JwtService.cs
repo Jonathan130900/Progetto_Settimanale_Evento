@@ -14,7 +14,7 @@ namespace Progetto_Settimanale_Evento.Services
             _configuration = configuration;
         }
 
-        public string GenerateToken(string userId, string role)
+        public string GenerateToken(string userId, string role) 
         {
             var claims = new List<Claim>
             {
