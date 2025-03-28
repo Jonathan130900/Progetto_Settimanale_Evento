@@ -1,0 +1,6 @@
+@Progetto_Settimanale_Evento_HostAddress = http://localhost:5055
+
+GET {{Progetto_Settimanale_Evento_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
